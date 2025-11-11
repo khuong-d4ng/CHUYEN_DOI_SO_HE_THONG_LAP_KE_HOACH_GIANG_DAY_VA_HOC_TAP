@@ -23,7 +23,7 @@
 - [Roadmap](#-roadmap)
 - [License](#-license)
 
-## Giới Thiệu
+## 🌟 Giới Thiệu
 
 Hệ thống Lập Lịch Giảng Dạy là một ứng dụng web được phát triển nhằm **số hóa và tự động hóa** quy trình phân công giảng dạy tại các trường đại học. Thay vì sử dụng các công cụ phân mảnh như Excel, PDF và email, hệ thống cung cấp một **nền tảng tập trung** với giao diện trực quan, giúp:
 
