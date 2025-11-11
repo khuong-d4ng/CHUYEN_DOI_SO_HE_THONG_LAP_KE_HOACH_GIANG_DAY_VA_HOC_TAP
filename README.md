@@ -1,11 +1,12 @@
-# Hệ Thống Lập Lịch Giảng Dạy Tự Động
+# Xây dựng hệ thống lập kế hoạch giảng dạy và học tập cho Khoa Công nghệ thông tin- Trường Đại học Đại Nam
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js)](https://nodejs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?logo=mysql)](https://www.mysql.com/)
 
-> Ứng dụng web hiện đại giúp số hóa và tối ưu hóa quy trình lập lịch giảng dạy tại các khoa đào tạo
+> Đề tài được xây dựng nhằm số hóa toàn bộ quy trình này thông qua một ứng dụng web tập trung và cho phép người quản lý thao tác trực quan, tối ưu hóa quy trình lập lịch giảng dạy và giảm thiểu tối đa sai sót có thể mắc của các phương pháp truyền thống.
 
 ## Mục Lục
 
