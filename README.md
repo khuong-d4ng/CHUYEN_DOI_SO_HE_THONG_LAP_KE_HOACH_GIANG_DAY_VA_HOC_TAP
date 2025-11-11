@@ -10,20 +10,19 @@
 
 ## Mục Lục
 
-- [Giới Thiệu](#-giới-thiệu)
-- [Tính Năng](#-tính-năng)
-- [Kiến Trúc Hệ Thống](#-kiến-trúc-hệ-thống)
-- [Công Nghệ Sử Dụng](#-công-nghệ-sử-dụng)
-- [Cài Đặt](#-cài-đặt)
-- [Hướng Dẫn Sử Dụng](#-hướng-dẫn-sử-dụng)
-- [Cấu Trúc Dự Án](#-cấu-trúc-dự-án)
-- [API Documentation](#-api-documentation)
-- [Database Schema](#-database-schema)
-- [Đóng Góp](#-đóng-góp)
-- [Roadmap](#-roadmap)
-- [License](#-license)
+- [Giới Thiệu](#giới-thiệu)
+- [Tính Năng](#tính-năng)
+- [Kiến Trúc Hệ Thống](#kiến-trúc-hệ-thống)
+- [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
+- [Cài Đặt](#cài-đặt)
+- [Hướng Dẫn Sử Dụng](#hướng-dẫn-sử-dụng)
+- [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
+- [API Documentation](#api-documentation)
+- [Database Schema](#database-schema)
+- [Roadmap](#roadmap)
+- [License](#license)
 
-## 🌟 Giới Thiệu
+## Giới Thiệu
 
 Hệ thống Lập Lịch Giảng Dạy là một ứng dụng web được phát triển nhằm **số hóa và tự động hóa** quy trình phân công giảng dạy tại các trường đại học. Thay vì sử dụng các công cụ phân mảnh như Excel, PDF và email, hệ thống cung cấp một **nền tảng tập trung** với giao diện trực quan, giúp:
 
