@@ -1,4 +1,4 @@
-# 🎓 Hệ Thống Lập Lịch Giảng Dạy Tự Động
+# Hệ Thống Lập Lịch Giảng Dạy Tự Động
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
@@ -7,7 +7,7 @@
 
 > Ứng dụng web hiện đại giúp số hóa và tối ưu hóa quy trình lập lịch giảng dạy tại các khoa đào tạo
 
-## 📋 Mục Lục
+## Mục Lục
 
 - [Giới Thiệu](#-giới-thiệu)
 - [Tính Năng](#-tính-năng)
@@ -22,55 +22,55 @@
 - [Roadmap](#-roadmap)
 - [License](#-license)
 
-## 🌟 Giới Thiệu
+## Giới Thiệu
 
 Hệ thống Lập Lịch Giảng Dạy là một ứng dụng web được phát triển nhằm **số hóa và tự động hóa** quy trình phân công giảng dạy tại các trường đại học. Thay vì sử dụng các công cụ phân mảnh như Excel, PDF và email, hệ thống cung cấp một **nền tảng tập trung** với giao diện trực quan, giúp:
 
-- ✅ Quản lý chương trình đào tạo theo ngành, khóa và kỳ học
-- ✅ Phân công giảng viên bằng giao diện kéo-thả (Drag & Drop)
-- ✅ Kiểm tra xung đột lịch dạy tự động
-- ✅ Đảm bảo tính nhất quán và toàn vẹn dữ liệu
-- ✅ Giảm thiểu sai sót và tối ưu thời gian lập lịch
+- Quản lý chương trình đào tạo theo ngành, khóa và kỳ học
+- Phân công giảng viên bằng giao diện kéo-thả (Drag & Drop)
+- Kiểm tra xung đột lịch dạy tự động
+- Đảm bảo tính nhất quán và toàn vẹn dữ liệu
+- Giảm thiểu sai sót và tối ưu thời gian lập lịch
 
-### 🎯 Mục Tiêu Dự Án
+### Mục Tiêu Dự Án
 
 - Xây dựng **Single Source of Truth** cho dữ liệu đào tạo
 - Cung cấp trải nghiệm người dùng **trực quan và dễ sử dụng**
 - Đảm bảo **khả năng mở rộng** và bảo trì dễ dàng
 - Tạo nền tảng cho việc tích hợp AI/ML trong tương lai
 
-## ✨ Tính Năng
+## Tính Năng
 
-### 🔹 Phiên Bản Hiện Tại (Prototype v1.0)
+###  Phiên Bản Hiện Tại (Prototype v1.0)
 
 #### Quản Lý Dữ Liệu
-- 📚 Quản lý danh sách ngành học, khóa học, kỳ học
-- 👨‍🏫 Quản lý thông tin giảng viên (học vị, chuyên môn, trạng thái)
-- 📖 Quản lý chương trình đào tạo (môn học, tín chỉ, môn bắt buộc/tự chọn)
+- Quản lý danh sách ngành học, khóa học, kỳ học
+- Quản lý thông tin giảng viên (học vị, chuyên môn, trạng thái)
+- Quản lý chương trình đào tạo (môn học, tín chỉ, môn bắt buộc/tự chọn)
 
 #### Lập Lịch Tương Tác
-- 🎯 **Giao diện Drag & Drop**: Kéo-thả giảng viên vào lớp học phần
-- 🔄 **Cập nhật realtime**: Trạng thái giảng viên tự động cập nhật (Rảnh/Bận)
-- 📊 **Bộ lọc động**: Lọc theo Ngành → Khóa → Kỳ học
-- 📋 **Hiển thị bảng chi tiết**: Xem đầy đủ thông tin lớp học phần
+- **Giao diện Drag & Drop**: Kéo-thả giảng viên vào lớp học phần
+- **Cập nhật realtime**: Trạng thái giảng viên tự động cập nhật (Rảnh/Bận)
+- **Bộ lọc động**: Lọc theo Ngành → Khóa → Kỳ học
+- **Hiển thị bảng chi tiết**: Xem đầy đủ thông tin lớp học phần
 
 #### Trải Nghiệm Người Dùng
-- ✨ Animation mượt mà với DragOverlay
-- 📱 Responsive design - tương thích mọi thiết bị
-- 🎨 Giao diện thân thiện, dễ học
-- ⚡ Phản hồi tức thì với các thao tác
+- Animation mượt mà với DragOverlay
+- Responsive design - tương thích mọi thiết bị
+- Giao diện thân thiện, dễ học
+- Phản hồi tức thì với các thao tác
 
-### 🚀 Tính Năng Sắp Triển Khai
+### Tính Năng Sắp Triển Khai
 
-- 💾 Lưu trữ dữ liệu bền vững (POST/PUT/DELETE APIs)
-- ⚠️ Kiểm tra xung đột lịch dạy và phòng học
-- ✏️ Chỉnh sửa trực tiếp (Inline editing) trên bảng
-- 🔐 Xác thực người dùng (JWT Authentication)
-- 👥 Phân quyền theo vai trò (Admin/Scheduler/Viewer)
-- 📄 Xuất báo cáo (Excel, PDF)
-- 📊 Dashboard thống kê và phân tích
+- Lưu trữ dữ liệu bền vững (POST/PUT/DELETE APIs)
+- Kiểm tra xung đột lịch dạy và phòng học
+- Chỉnh sửa trực tiếp (Inline editing) trên bảng
+- Xác thực người dùng (JWT Authentication)
+- Phân quyền theo vai trò (Admin/Scheduler/Viewer)
+- Xuất báo cáo (Excel, PDF)
+- Dashboard thống kê và phân tích
 
-## 🏗️ Kiến Trúc Hệ Thống
+## Kiến Trúc Hệ Thống
 
 Hệ thống được xây dựng theo mô hình **3-Tier Architecture**:
 
@@ -111,7 +111,7 @@ Hệ thống được xây dựng theo mô hình **3-Tier Architecture**:
 - **Connection Pool**: Tối ưu hiệu suất truy vấn database
 - **Component-Based UI**: Tái sử dụng và bảo trì dễ dàng
 
-## 🛠️ Công Nghệ Sử Dụng
+## Công Nghệ Sử Dụng
 
 ### Frontend
 - **React 18.x** - UI Framework
@@ -137,7 +137,7 @@ Hệ thống được xây dựng theo mô hình **3-Tier Architecture**:
 - **npm** - Package manager
 - **Postman** - API testing
 
-## 📦 Cài Đặt
+## Cài Đặt
 
 ### Yêu Cầu Hệ Thống
 
@@ -214,9 +214,7 @@ npm run dev
 # Frontend chạy tại: http://localhost:5173
 ```
 
-🎉 Truy cập ứng dụng tại: **http://localhost:5173**
-
-## 📖 Hướng Dẫn Sử Dụng
+## Hướng Dẫn Sử Dụng
 
 ### 1. Chọn Bộ Lọc
 
@@ -244,7 +242,7 @@ npm run dev
 - Bảng hiển thị đầy đủ: Mã học phần, tên môn, số tín chỉ, giảng viên phụ trách, học vị...
 - Cuộn ngang (scroll) để xem các cột bổ sung
 
-## 📁 Cấu Trúc Dự Án
+## Cấu Trúc Dự Án
 
 ```
 teaching-schedule-system/
@@ -282,7 +280,7 @@ teaching-schedule-system/
 └── README.md                   # Documentation
 ```
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -378,7 +376,7 @@ GET /curriculum?majorId={id}&cohortId={id}&semester={num}
 ]
 ```
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Nhóm Bảng Danh Mục
 
@@ -443,73 +441,42 @@ GET /curriculum?majorId={id}&cohortId={id}&semester={num}
 | class_section_id | INT | FK → ClassSections |
 | instructor_id | INT | FK → Instructors |
 
-## 🤝 Đóng Góp
 
-Chúng tôi hoan nghênh mọi đóng góp từ cộng đồng!
+## Roadmap
 
-### Quy Trình Đóng Góp
-
-1. **Fork** repository này
-2. **Clone** về máy local
-   ```bash
-   git clone https://github.com/your-username/teaching-schedule-system.git
-   ```
-3. Tạo **branch mới** cho tính năng
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-4. **Commit** thay đổi
-   ```bash
-   git commit -m "Add: Amazing feature"
-   ```
-5. **Push** lên branch
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-6. Tạo **Pull Request**
-
-### Coding Standards
-
-- Sử dụng **ESLint** cho JavaScript/React
-- Tuân thủ **Airbnb Style Guide**
-- Viết **comment rõ ràng** cho logic phức tạp
-- Đặt tên **biến/hàm có ý nghĩa**
-
-## 🗺️ Roadmap
-
-### 📌 Phase 1: Persistence Layer (Q2 2024)
+### Phase 1: Persistence Layer (Q2 2024)
 - [ ] Xây dựng API POST/PUT/DELETE cho Assignments
 - [ ] Tích hợp lưu trữ bền vững cho phân công giảng viên
 - [ ] Tạo lớp học phần tự động từ chương trình đào tạo
 
-### 📌 Phase 2: Business Logic (Q3 2024)
+### Phase 2: Business Logic (Q3 2024)
 - [ ] Kiểm tra xung đột lịch dạy (Server-side)
 - [ ] Kiểm tra xung đột phòng học
 - [ ] Xác thực dữ liệu đầu vào (Validation Layer)
 - [ ] API lấy lịch dạy theo giảng viên/phòng/thời gian
 
-### 📌 Phase 3: Advanced Features (Q4 2024)
+### Phase 3: Advanced Features (Q4 2024)
 - [ ] Inline editing cho bảng dữ liệu
 - [ ] Xuất báo cáo Excel/PDF
 - [ ] Dashboard thống kê (giờ dạy, phòng học, ...)
 - [ ] Tìm kiếm và lọc nâng cao
 
-### 📌 Phase 4: Security & Administration (Q1 2025)
+### Phase 4: Security & Administration (Q1 2025)
 - [ ] JWT Authentication
 - [ ] Role-Based Access Control (RBAC)
 - [ ] Giao diện quản lý người dùng
 - [ ] Audit logs (lịch sử thay đổi)
 
-### 📌 Phase 5: AI/ML Integration (Future)
+### Phase 5: AI/ML Integration (Future)
 - [ ] Gợi ý phân công giảng viên thông minh
 - [ ] Phát hiện xung đột tiềm ẩn
 - [ ] Tối ưu hóa phòng học tự động
 
-## 📜 License
+## License
 
 Dự án được phát hành dưới giấy phép **MIT License** - xem file [LICENSE](LICENSE) để biết thêm chi tiết.
 
-## 👥 Tác Giả
+## Tác Giả
 
 - Phạm Đăng Khương
 
@@ -519,12 +486,12 @@ Dự án được phát hành dưới giấy phép **MIT License** - xem file [L
 
 **Trường Đại Học Đại Nam** - Khoa CNTT
 
-## 📞 Liên Hệ
+## Liên Hệ
 ---
 
 <div align="center">
 
 
-Made with ❤️ by Team XYZ
+Made with hate
 
 </div>
