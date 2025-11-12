@@ -161,8 +161,7 @@ Hệ thống được xây dựng theo mô hình **3-Tier Architecture**:
 
 ```bash
 # Clone dự án
-git clone https://github.com/yourusername/teaching-schedule-system.git
-cd teaching-schedule-system
+git clone [https://github.com/yourusername/teaching-schedule-system.git](https://github.com/khuong-d4ng/CHUYEN_DOI_SO_HE_THONG_LAP_KE_HOACH_GIANG_DAY_VA_HOC_TAP/blob/main/README.md)
 ```
 
 ### Bước 2: Cài Đặt Backend
