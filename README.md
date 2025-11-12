@@ -47,7 +47,6 @@ Hệ thống Lập Lịch Giảng Dạy là một ứng dụng web được phá
 
 ### Mục Tiêu Dự Án
 
-- Xây dựng **Single Source of Truth** cho dữ liệu đào tạo
 - Cung cấp trải nghiệm người dùng **trực quan và dễ sử dụng**
 - Đảm bảo **khả năng mở rộng** và bảo trì dễ dàng
 - Tạo nền tảng cho việc tích hợp AI/ML trong tương lai
