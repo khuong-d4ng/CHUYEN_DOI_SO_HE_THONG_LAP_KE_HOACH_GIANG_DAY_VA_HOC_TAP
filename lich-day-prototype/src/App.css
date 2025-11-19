@@ -1,0 +1,165 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f7f6;
+  /* Ngăn toàn bộ trang bị cuộn ngang */
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  width: 100vw; /* Chiếm 100% chiều rộng viewport */
+  height: 100vh;
+}
+
+/* --- Sidebar trái --- */
+.sidebar {
+  width: 250px;
+  flex-shrink: 0; /* Không cho phép co lại */
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+.sidebar h2 {
+  font-size: 1.2em;
+  color: #333;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.sidebar ul li:hover {
+  background-color: #e9ecef;
+}
+.sidebar ul li.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* --- Khu vực nội dung chính --- */
+.main-content {
+  flex-grow: 1; /* Cho phép giãn ra để lấp đầy không gian trống */
+  padding: 20px;
+  display: flex; /* Biến nó thành flex container để kiểm soát children */
+  flex-direction: column;
+
+  /* === FIX QUAN TRỌNG NHẤT === */
+  /* Ngăn không cho khu vực này giãn ra vô hạn theo chiều rộng của bảng */
+  min-width: 0; 
+}
+
+.course-table-container h2 {
+  font-size: 1.5em;
+  flex-shrink: 0; /* Không cho tiêu đề bị co lại */
+}
+
+/* === Wrapper cho bảng để tạo thanh cuộn === */
+.table-wrapper {
+  width: 100%;
+  flex-grow: 1; /* Cho phép wrapper lấp đầy không gian còn lại trong main-content */
+  overflow-x: auto; /* Tạo thanh cuộn ngang khi cần */
+  border: 1px solid #ddd;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+/* Style cho bảng chi tiết */
+.detailed-table {
+  white-space: nowrap; /* Ngăn text trong các ô tự xuống dòng */
+}
+.course-table th, .course-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+.course-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  position: sticky; /* Giữ header dính lại khi cuộn dọc */
+  top: 0;
+}
+
+
+/* --- Panel giảng viên bên phải --- */
+.instructor-panel {
+  width: 280px; /* Tăng chiều rộng một chút */
+  flex-shrink: 0; /* Không cho phép co lại */
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+/* ... các style cho instructor item giữ nguyên ... */
+.instructor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.instructor-item {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: grab;
+  user-select: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.instructor-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.instructor-item:active {
+  cursor: grabbing;
+  background-color: #e9ecef;
+}
+.instructor-name {
+  font-weight: bold;
+  color: #212529;
+}
+.instructor-degree {
+  font-size: 0.85em;
+  color: #6c757d;
+}
+/* Thêm vào cuối file src/App.css */
+
+/* Style cho giảng viên đã được gán trong panel */
+.instructor-item.assigned {
+  opacity: 0.5;
+  background-color: #f8f9fa;
+}
+.status-badge {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Style cho giảng viên được gán trong bảng */
+.assigned-instructor {
+  background-color: #cce5ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: grab;
+  font-weight: bold;
+}
+.assigned-instructor:active {
+  cursor: grabbing;
+}
+
+/* Text mờ cho ô trống trong bảng */
+.placeholder-text {
+  color: #adb5bd;
+  font-style: italic;
+  font-size: 0.9em;
+}
